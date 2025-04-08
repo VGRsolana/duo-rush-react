@@ -1,11 +1,15 @@
 import './App.css'
-import data from './data';
+import dataProducts from './data';
+import ProductCard from './component/ProductCard';
 
 function App() {
   return (
     <>
-      <nav />
-      <Header />
+      <section className="section-card">
+
+        {dataProducts.map((product) => <ProductCard key={product.id} product={product} />)}
+
+      </section>
     </>
   )
 }
