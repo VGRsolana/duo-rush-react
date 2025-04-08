@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    height: 150px;
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    font-size: 30px;
+    margin-right: 180px;
+
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
